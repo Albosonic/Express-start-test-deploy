@@ -1,0 +1,29 @@
+<h1 class="container-fluid title">Farm Fresh</h1>
+
+<form id="new-todo" class="container-fluid">
+	<div class="form-group">
+		<label for="body">Order Here</label><br>
+		<input type="text" name="body" class="form-control" placeholder="what do you want......">
+		</div>
+			<button id="save-btn" type="submitt" class="btn btn-primary">Add</button>
+</form>
+
+
+<ul id="todos-list" >
+  {{#each todos}}
+  <div class="list-group">
+    <li id="todo" class="list-group-item" >
+	    <a href="/todos/{{this._id}}">
+	    	{{this.body}}
+	    </a>
+	    <div class="remove-todo list-ggroup-item pull-right btn btn-danger btn-sm" data-id="{{this._id}}"><i class="ion-ios-trash"> Remove</i></div>
+    </li>
+    </div>
+  {{/each}}
+</ul>
+</div>
+
+
+
+
+

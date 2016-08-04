@@ -1,0 +1,35 @@
+body{
+	background: #CAFFBF;
+}
+
+a{
+	color: black;
+	font-size: 145%;
+}
+#todo{
+	list-style-type: none;
+	margin-bottom: 2%;
+	margin-top: 4%;
+	margin-right: 15%;
+}
+
+.navbar-inverse{
+	border-radius: 1%;
+	border: 50px;
+	background: #D18D45;
+	color: black;
+}
+.container{
+	margin: 0%
+}
+
+.container-fluid{
+	
+	text-align: center;
+}
+#brand{
+	color: black;
+}
+
+
+
